@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="95.76pt" version="1.1" viewBox="0 0 509.76 95.76" width="509.76pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+*{stroke-linecap:butt;stroke-linejoin:round;}
+  </style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 95.76 
+L 509.76 95.76 
+L 509.76 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 28.0368 57.456 
+L 494.4672 57.456 
+L 494.4672 21.0672 
+L 28.0368 21.0672 
+z
+" style="fill:#ffffff;"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path d="M 0 0 
+L 0 2.5 
+" id="m9106255dcd" style="stroke:#6b7280;stroke-width:0.6;"/>
+      </defs>
+      <g>
+       <use style="fill:#6b7280;stroke:#6b7280;stroke-width:0.6;" x="41.85696" xlink:href="#m9106255dcd" y="57.456"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill:#6b7280;font-family:Helvetica;font-size:7.4px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 41.85696, 67.264344)" x="41.85696" y="67.264344">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use style="fill:#6b7280;stroke:#6b7280;stroke-width:0.6;" x="128.23296" xlink:href="#m9106255dcd" y="57.456"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill:#6b7280;font-family:Helvetica;font-size:7.4px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 128.23296, 67.264344)" x="128.23296" y="67.264344">50</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use style="fill:#6b7280;stroke:#6b7280;stroke-width:0.6;" x="214.60896" xlink:href="#m9106255dcd" y="57.456"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill:#6b7280;font-family:Helvetica;font-size:7.4px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 214.60896, 67.264344)" x="214.60896" y="67.264344">100</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use style="fill:#6b7280;stroke:#6b7280;stroke-width:0.6;" x="300.98496" xlink:href="#m9106255dcd" y="57.456"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill:#6b7280;font-family:Helvetica;font-size:7.4px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 300.98496, 67.264344)" x="300.98496" y="67.264344">150</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use style="fill:#6b7280;stroke:#6b7280;stroke-width:0.6;" x="387.36096" xlink:href="#m9106255dcd" y="57.456"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill:#6b7280;font-family:Helvetica;font-size:7.4px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 387.36096, 67.264344)" x="387.36096" y="67.264344">200</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use style="fill:#6b7280;stroke:#6b7280;stroke-width:0.6;" x="473.73696" xlink:href="#m9106255dcd" y="57.456"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill:#6b7280;font-family:Helvetica;font-size:7.4px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 473.73696, 67.264344)" x="473.73696" y="67.264344">250</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="fill:#6b7280;font-family:Helvetica;font-size:8px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 261.252, 77.639281)" x="261.252" y="77.639281">time after the epoch closes (ms)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 28.0368 57.456 
+L 494.4672 57.456 
+" style="fill:none;stroke:#6b7280;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.6;"/>
+   </g>
+   <g id="patch_4">
+    <path clip-path="url(#p6846917fa7)" d="M 41.85696 47.388432 
+L 85.04496 47.388432 
+L 85.04496 37.199568 
+L 41.85696 37.199568 
+z
+" style="fill:#c7daf7;"/>
+   </g>
+   <g id="patch_5">
+    <path clip-path="url(#p6846917fa7)" d="M 85.04496 47.388432 
+L 103.857653 47.388432 
+L 103.857653 37.199568 
+L 85.04496 37.199568 
+z
+" style="fill:#2563eb;"/>
+   </g>
+   <g id="text_8">
+    <text style="fill:#c2410c;font-family:Helvetica;font-size:8px;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 135.14304, 30.9214)" x="135.14304" y="30.9214">50 ms latency budget</text>
+   </g>
+   <g id="text_9">
+    <text style="fill:#6b7280;font-family:Helvetica;font-size:8px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 466.82688, 31.0239)" x="466.82688" y="31.0239">250 ms — next epoch closes</text>
+   </g>
+   <g id="text_10">
+    <text style="fill:#1f2328;font-family:Helvetica;font-size:8px;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 142.05312, 44.339)" x="142.05312" y="44.339">decision at 35.9 ms   =   25 ms lookahead  +  10.9 ms compute</text>
+   </g>
+   <g id="line2d_7">
+    <path clip-path="url(#p6846917fa7)" d="M 128.23296 57.456 
+L 128.23296 21.0672 
+" style="fill:none;stroke:#c2410c;stroke-dasharray:2.7,1.8;stroke-dashoffset:0;stroke-width:0.9;"/>
+   </g>
+   <g id="line2d_8">
+    <path clip-path="url(#p6846917fa7)" d="M 473.73696 57.456 
+L 473.73696 21.0672 
+" style="fill:none;stroke:#6b7280;stroke-linecap:square;stroke-width:0.9;"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6846917fa7">
+   <rect height="36.3888" width="466.4304" x="28.0368" y="21.0672"/>
+  </clipPath>
+ </defs>
+</svg>
