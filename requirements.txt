@@ -1,0 +1,23 @@
+# Python 3.9.6 is what this was built and verified on.
+#
+# The versions are pinned, not floated, for one reason: the frozen classifier
+# (`models/xgb_frozen.pkl`) is an XGBoost model pickled by an older version, and
+# the feature extractor is `mne_features`, whose feature definitions have moved
+# between releases.  A different xgboost or mne_features will still run and will
+# still produce numbers - they just will not be THESE numbers, and the
+# verification section of `detect.ipynb` will say so.
+#
+#     python3.9 -m venv .venv
+#     ./.venv/bin/pip install -r requirements.txt
+#     ./.venv/bin/pip install jupyterlab        # to open the notebook
+
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+xgboost==2.1.4
+scikit-learn==1.6.1
+mne==1.8.0
+mne-features==0.3
+numba==0.60.0
+joblib==1.5.3
+PyWavelets==1.6.0
