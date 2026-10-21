@@ -99,7 +99,8 @@ stage 7   threshold 0.70, 2 s refractory, 20 min bins
 Model 2 is the contribution. It learns, from past recordings, how far the causal
 chain's score sits from what the same classifier would have said with 16.5 s of
 future available, then adds that back. The offline 16.5 s chain only generates
-training labels. It is never called at inference and is not in this repository.
+training labels. It is never called at inference. Its code is in
+`dev/research/`, which you only need to refit model 2.
 
 ## How well it works
 
@@ -119,8 +120,10 @@ recording the model has not seen.** The correction costs 0.14 ms per decision,
 the threshold must stay at 0.70.
 
 Only model 2 can be refitted, and only when new donor recordings turn up. The
-recipe is `dev/train.ipynb`, explained in `dev/README.md`. It needs the raw
-recordings, so it will not run from a clone of this repository.
+recipe is `dev/train.ipynb`, explained in `dev/README.md` ("Adding a new
+subject" is the step-by-step). It needs the raw recordings, or matrices built
+from them, for the original three donors as well as the new one. Those are not
+distributed, so it will not run from a clone of this repository.
 
 ---
 
@@ -165,7 +168,9 @@ requirements.txt
 dev/                  NOT needed to run - for future changes
   README.md             what is in here and when you would need it
   train.ipynb           refit the correction on new donor recordings
+  research/             recording to training matrices, used by train.ipynb
   RESULTS.md            the write-up: what was tried, what was rejected
+  figures/              figure scripts and the data behind them
 ```
 
 No patient data is in this repository, and none should ever be committed.
@@ -193,6 +198,11 @@ to its `.mff` directory. It is not in the Parameters cell.
 If the version banner in the notebook's imports cell reports anything off the
 pinned set, expect the fingerprint to differ. That is the pin doing its job, not
 a bug.
+
+After refitting the correction, the 267-detection result and the synthetic
+fingerprint will most likely change, because they depend on `correction.json`.
+The 291-detection frozen-only result must not change. Re-record the other two
+here once you have checked them.
 
 The isolation claim was tested rather than assumed. The folder was copied
 somewhere with no siblings, a fresh venv was built from `requirements.txt` alone,

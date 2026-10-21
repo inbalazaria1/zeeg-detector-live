@@ -8,6 +8,10 @@
 *.set
 *.bdf
 
+# Hypnograms and raw recordings for dev/research, also per patient.
+dev/research/_ext/scoring-sleep_stages/
+dev/research/_ext/mff's/
+
 # Detector output - it is a list of times in a patient's recording.
 spikes.csv
 *_spikes.csv
@@ -29,3 +33,4 @@ __pycache__/
 .pytest_cache/
 *.tmp
 .claude/
+~$*
